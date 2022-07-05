@@ -1,0 +1,30 @@
+/*Clean Css code for challenge#8*/
+ .container{
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    grid-gap:10px;
+  }
+  
+   .nested-item{
+    display:grid;
+    grid-gap:19px;
+  }
+  
+  .item{
+    background-color:lightgreen;
+    color:rgb(9, 6, 6);
+    text-align: center;
+    padding-top:18px;
+  } 
+
+  .heading{
+    color: rgb(238, 243, 247);
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva,
+
+  }
+
+  .a{
+    background-color: rgb(44, 63, 139);
+  }

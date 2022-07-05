@@ -1,0 +1,224 @@
+   .main_div{
+    background:url(image.png); 
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 80% -70%;
+    background-size: 38%;
+    
+
+}
+
+.Contact-Form{
+    width: 85%;
+    max-width: 980px;
+    position: absolute;
+    top: 54%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: -155px;
+    
+    }
+    
+    .form{
+        border: 1px solid #e5dede;
+        margin: 14px 0px 4px 0px;
+        padding: 2px 10px;
+        border-radius: 8px;
+        
+    }
+    
+    .form-group input{
+        width: 48%;
+        font-size: 12px;
+        border: 1px solid #e8dede;
+        margin: 12px;
+        padding: 9px;
+        border-radius: 6px;
+        
+    }
+    .form-group .input_1{
+        margin: 10px 5px 0px 0px;
+        padding: 10px;
+        
+        
+    }
+    .form-group .input_2{
+        margin: 10px 0px 0px 10px;
+        padding: 10px;
+        
+    }
+
+    .form-control input{
+        width: 50%;
+        font-size: 11px;
+        border: 1px solid #e5d9d9;
+        margin: 7px auto;
+        
+        border-radius: 4px;
+    }
+    input{
+        width: auto;
+        font-size: 12px;
+        border: 1px solid #a9a9a9;
+        margin: 7px auto;
+        border-radius: 2px;
+        
+    }
+
+    .form-group{
+        display: flex;
+    }
+  
+   
+    .Contact-Form h1{
+        font-weight: 600;
+        margin-top: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
+    
+    }
+    
+    .Contact-Form p{
+        font-weight: 300;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #868585;
+    }
+    
+    .form label{
+    font-size: 11px;
+    color: #000;
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    }
+    
+    .form input, .form textarea{
+        width: 100%;
+        border: none;
+        outline: none;
+    }
+    
+    .button{
+    width: 31%;
+    display: inline-block;
+    background-color: #00afff;
+    padding: 12px 0px;
+    text-decoration: none;
+    font-size: medium;
+    margin-top: 70px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 45px;
+    margin-right: 31%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+   
+    
+    }
+
+    .icon{
+        width: 20px;
+        background-color: #00afff;
+        color: white;
+        margin-top: 15%;
+        margin-left: -1%;
+        display: grid;
+        padding: 10px;
+        grid-row-gap: 12px;
+        text-align: center;
+        grid-template-columns: auto;  
+        height: 70px;
+        
+       
+
+    }
+    
+    .check{
+        float: left;
+        width: auto;
+        height: auto;
+        color: #686666;
+        font-size: small;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+
+    @media all and (max-width: 1146px) and (min-width:921px) {
+        .Contact-Form {
+            width: 65%;
+            max-width: 780px;
+            position: absolute;
+            top: 54%;
+            left: 49%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            margin-left: -135px;
+        }
+    }
+    
+    @media all and (max-width: 920px) and (min-width: 721px) {
+        .Contact-Form{
+            width: 65%;
+            max-width: 780px;
+            position: absolute;
+            top: 54%;
+            left: 49%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            margin-left: -135px;
+        }
+    }
+    
+    @media all and (max-width: 720px) and (min-width: 521) {
+        .Contact-Form {
+            width: 50%;
+            max-width: 680px;
+            position: absolute;
+            top: 54%;
+            left: 49%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            margin-left: -135px;
+        }
+    }
+    
+    @media all and (max-width: 520px) and (min-width:321px) {
+        .Contact-Form {
+            width: 40%;
+            max-width: 580px;
+            position: absolute;
+            top: 54%;
+            left: 49%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            margin-left: -135px;
+        }
+    }
+    
+    @media all and (max-width: 320px) {
+        .Contact-Form {
+            width: 30%%;
+            max-width: 400px;
+            position: absolute;
+            top: 54%;
+            left: 49%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            margin-left: -135px;
+        }
+    }
+
+
+@media all and (max-width: 320px) {
+    .main_div{
+        background:url(image.png); 
+        background-repeat: no-repeat;
+        background-position: right;
+        background-position: 50% -40%;
+        background-size: 38%;
+    }
+    
+    }
+    
